@@ -1224,7 +1224,7 @@ mref: # Maximum reflectivity for past hour at 1 km AGL
     title: Max 1km agl Reflectivity (over prev hr)
 nifa: # Ice-friendly aerosol number concentration
   250mb: &nifa
-    clevs: [10000.0, 100000.0, 160000.0, 260000.0, 410000.0, 660000.0, 1000000.0, 1600000.0, 2600000.0, 4100000.0, 6600000.0, 10000000.0]
+    clevs: [1.0e+04, 1.0e+05, 1.6e+05, 2.6e+05, 4.1e+05, 6.6e+05, 1.0e+06, 1.6e+06, 2.6e+06, 4.1e+06, 6.6e+06, 1.0e+07]
     cmap: gist_ncar
     colors: vort_colors
     ncl_name: PMTC_P0_L100_{grid}
@@ -1296,7 +1296,7 @@ nifa: # Ice-friendly aerosol number concentration
         levels: [0, 1000]
 nwfa: # Water-friendly aerosol number concentration
   250mb: &nwfa
-    clevs: [10000000.0, 100000000.0, 160000000.0, 260000000.0, 410000000.0, 660000000.0, 1000000000.0, 1600000000.0, 2600000000.0, 4100000000.0, 6600000000.0, 10000000000.0]
+    clevs: [1.0e+07, 1.0e+08, 1.6e+08, 2.6e+08, 4.1e+08, 6.6e+08, 1.0e+09, 1.6e+09, 2.6e+09, 4.1e+09, 6.6e+09, 1.0e+10]
     cmap: gist_ncar
     colors: vort_colors
     ncl_name: PMTF_P0_L100_{grid}

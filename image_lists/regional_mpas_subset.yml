@@ -98,7 +98,6 @@ hourly:
       - 500mb
       - 700mb
       - 850mb
-      - 925mb
       - 975mb
       - 1000mb
     nwfa:
@@ -106,7 +105,6 @@ hourly:
       - 500mb
       - 700mb
       - 850mb
-      - 925mb
       - 975mb
       - 1000mb
     pres:
